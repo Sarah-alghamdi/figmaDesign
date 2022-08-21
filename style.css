@@ -1,0 +1,238 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.body{
+max-width: 792px;
+height: 514.38px;
+margin: auto;
+background: #3A3E73;
+margin-top: 7%;
+border-radius: 30px;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito+Sans:wght@700&family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: Arial;
+    font-size: 12px;
+    display: flex;
+    /* height: 100vh; */
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+#mainFrame {
+    margin-top: 10px;
+    width: 1080px;
+    height: 701.43px;
+    padding: 36.82px 53px ;
+    background-color: #3A3E73;
+    background-image: url(assets/Ellipse\ 1.svg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    border-radius: 40.91px;
+}
+
+.logo h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 42.8571px;
+    line-height: 52px;
+    color: #F7C22B;
+    text-shadow: 0px 2.85714px 2.85714px rgba(0, 0, 0, 0.28);
+}
+
+.navright {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat';
+    margin-left: 284px;
+
+}
+
+.navright a {
+    padding-left: 39px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8571px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+
+.navright a:hover {
+    color: #F7C22B;
+}
+
+/* .back img{
+position: absolute;
+width: 607.86px;
+height: 725px;
+left: 219.71px;
+top: -17.14px;
+} */
+
+.header {
+    margin-top: 199.57px;
+    margin-bottom: 83px;
+    display: flex;
+}
+
+.head {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24.2857px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 12.14px;
+}
+
+.sub{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16.4286px;
+line-height: 25px;
+color: #FFFFFF;
+}
+
+.right {
+    position: relative;
+}
+
+
+.Explorebtn {
+    margin-top: 13.57px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 14.2857px;
+}
+
+
+.Explorebtn input[type=button] {
+    transition: all 0.4s ease;
+    width: 170px;
+    height: 40.71px;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12.8571px;
+    line-height: 14px;
+    /* identical to box height, or 106% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    padding-left: 16%;
+    border-radius: 14.2857px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.Explorebtn input[type=button]:hover {
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+    background: #F7C22B;
+    border: 1px solid #fff;
+    border-radius: 14.2857px;
+}
+
+.social{
+    margin-top: 156.14px;
+}
+
+.social a {
+    margin-right: 7px;
+}
+
+.social a:hover {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+
+.circule{
+    box-sizing: border-box;
+    position: relative;
+    width: 460px;
+    height: 460px;
+    left: 116px;
+    top: -154.29px;
+    border: 3.57143px solid #EBFF00;
+    border-radius: 357.143px;
+}
+
+.circule .img1{
+    box-sizing: border-box;
+    position: relative;
+    width: 428.3px;
+    height: 425.71px;
+    left: 11px;
+    top: 14.71px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 65s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+.slider img{
+    position: relative;
+    width: 34.29px;
+    height: 34.29px;
+    top: -234px;
+    left: 503px;
+}
+
+
+
+
+.shoe {
+    position: relative;
+    width: 707.14px;
+    height: 452.86px;
+    top: -351px;
+    left: -249px;
+}
+
+#slider {
+    position: relative;
+    width: 34.29px;
+    height: 34.29px;
+    top: -234px;
+    left: 503px;
+    background: transparent url("assets/sliderArrow.svg") no-repeat center;
+    cursor: pointer;
+    border: none;
+    color: black;
+  }
+
+
